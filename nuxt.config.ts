@@ -3,6 +3,11 @@ export default defineNuxtConfig({
   extends: '@nuxt-themes/docus',
   devtools: { enabled: true },
 
+  target: 'static',
+  router: {
+    base: '/disciplinas/'
+  },
+
   modules: [
     // Remove it if you don't use Plausible analytics
     // https://github.com/nuxt-modules/plausible
